@@ -77,6 +77,7 @@ document.getElementById("upload-button").addEventListener("click", async () => {
     fileName: "s3-browser.jpg",
     displayName: "S3 Browser Uploader",
     contentType: "image/jpg",
+    public: true,
   })
 })
 
